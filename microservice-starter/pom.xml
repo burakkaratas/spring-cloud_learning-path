@@ -3,19 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.karatas.learningpath</groupId>
     <artifactId>microservice-starter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <name>microservice-starter</name>
-    <description>microservice-starter</description>
+    <packaging>pom</packaging>
 
     <parent>
         <groupId>com.karatas.learningpath</groupId>
         <artifactId>spring-cloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <dependencies>
@@ -28,6 +22,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
+            <version>LATEST</version>
         </dependency>
 
         <dependency>
@@ -38,6 +33,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>LATEST</version>
         </dependency>
 
         <dependency>
